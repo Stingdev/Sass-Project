@@ -1,0 +1,74 @@
+.social{
+    height: 200 px;
+    @extend %fulWidth;
+    background-color:$header-color;
+
+    .container{
+
+        background-color:$header-color;
+        @extend %fulWidth;
+        @extend %displayRowKenar;
+        @extend %main-container;
+        height: 60px;
+        padding-top: 100px;
+
+
+        .logo{
+            justify-content: left;
+            display: flex;
+            padding-left: 130px;
+
+        }
+        .nav{
+            float: right;
+            padding-right: 130px;
+
+            ul{ @extend %displayRowKenar;
+                list-style-type: none;
+                
+                li{
+                 
+                    a{
+                            text-decoration: none;
+                            font-size: $small-size;
+                            font-weight: 700;
+                            color: $primary-color;
+                            padding-left: 40px;
+                            
+                    }
+                }
+            }
+        }
+    }
+    .media-container{
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: column;
+        height: 100px;
+        background-color:$header-color;
+        @extend %fulWidth;
+        padding-bottom: 20px;
+
+
+        .social{
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        height: 17px;
+        padding-top: 41px;
+
+
+
+        }
+        .mavimedia{
+            padding-top: 16px;
+            align-items: center;
+            justify-content: center;
+            display: flex;
+            height: 20px;
+
+
+
+        }
+    }
+}

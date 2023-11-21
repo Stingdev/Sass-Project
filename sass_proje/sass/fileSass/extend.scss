@@ -1,0 +1,46 @@
+%displayRowKenar{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+%main-container{
+    position: relative;
+    width:$main-container;
+    margin: auto;
+}
+%yazı_ortala{
+    display: flex;
+    text-align: center;
+    align-items: center;
+
+}
+%fulWidth{
+    position: relative;
+    width: 100%;
+}
+
+%imgCenter{
+    background-position: center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+%bigSize{
+    width: 712px;
+    height: 94px;
+    font-size:$big-size;
+    font-family:"Oswald-Regular, Oswald";
+    text-transform: uppercase;
+    
+}
+
+%center{
+    
+     display: flex;
+     justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,40 @@
+.section1{
+    @extend %fulWidth;
+    height: 235px;
+    background-color: $primary-color;
+    
+    .container{
+     position: absolute;
+     align-items: center;
+     text-align: center;
+     margin-top: 70px;
+     margin-bottom: 50px;
+     padding-left: 460px;
+     
+
+
+  .text{
+        
+        font-size:$small-size;
+        color:$green;
+        font-family: $title-family;
+        text-align: center;   
+
+
+     }
+     p{
+        font-size: $big-size;
+        text-transform: uppercase;
+        text-align: center;
+        margin: 0px;
+        
+
+
+
+     }
+
+
+    }
+
+
+}

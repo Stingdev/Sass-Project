@@ -1,0 +1,34 @@
+.text-button{
+    .container{
+        height: 207px;
+        @extend %fulWidth;
+        @extend %displayRowKenar;
+        align-items: center;
+        background-color: $green;
+        .text{
+            color: $primary-color;
+            display:flex;
+            height: 50px;
+            font-size: $middle-big-size;
+            padding-left: 130px;
+            font-weight: 600;
+            
+
+        }
+        .button-container{
+            height: 45px;
+            width: 292px;
+            background-color: $primary-color;
+            margin-right: 130px;
+
+            .button{
+                font-size: $small-size;
+                text-align: center;
+                padding-top: 10px ;
+                
+    
+            }
+        }
+        
+    }
+}

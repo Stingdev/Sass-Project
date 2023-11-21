@@ -1,0 +1,48 @@
+.text-text-button {
+    
+
+    .container {
+        height: 600px;
+        @extend %fulWidth;
+        
+
+    
+
+    .title {
+        padding: 79px 330px 20px 130px;
+        font-size: $big-size;
+        color: $seconder-color;
+        font-weight: 600;
+        
+
+
+    }
+    .desc{
+        font-size: $middle-size;
+        color: $seconder-color;
+        padding-left: 130px;
+        font-style: italic;
+        padding-right: 431px;
+
+
+    }
+
+    .button-container{
+        height: 48px;
+        width: 260px;
+        background-color: #000;
+        text-align: center;
+        color: $primary-color;
+        margin-left: 130px;
+        margin-top: 35px;
+
+        .button{
+            padding-top: 13px;
+
+
+        }
+    }
+
+
+}
+}

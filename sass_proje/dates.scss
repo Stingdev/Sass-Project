@@ -1,0 +1,25 @@
+.date{
+
+    .container{
+    @extend %fulWidth;
+    background-color: $primary-color;
+    height: 330px;
+    
+    
+    .text{
+        height: 50px;
+        font-size: $middle-big-size;
+        padding-top: 60px;
+        padding-left: 130px;
+        font-weight: 500;
+
+        
+    }
+    .images{
+        @extend %displayRowKenar;
+        height: 80px;
+        padding-top: 20px;
+        padding-left: 130px;
+    }
+}
+}

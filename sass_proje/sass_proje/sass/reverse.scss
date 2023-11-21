@@ -1,0 +1,51 @@
+.reverse  {
+    
+
+    &__row{
+        @extend %fulWidth;
+        @extend %displayRowKenar;
+        height: 752px;
+        background-color: $header-color;
+    
+        
+    }
+    
+    &__image {
+    
+        background-image: image($woman);
+        width: 830px;
+        align-items: flex-start;
+        background-color:$header-color ;
+    }
+    
+    &__text{
+        display: flex;
+        //align-items:center;
+        display: inline-block;
+        width: 40%;
+        align-content: center;
+        background-color: $header-color;
+    
+        
+        .title{
+            color: $primary-color;
+            font-size: $big-size;
+            padding: 179px 165px 20px 0px;  
+            font-weight: 500;
+    
+    
+        }
+    
+        .desc{
+            font-size: $middle-size;
+            padding: 0px 130px 0px 5px;
+            margin-right: 50px ;
+            color: $primary-color;
+            font-style: italic;
+    
+    
+    
+        }
+    }
+    }
+    

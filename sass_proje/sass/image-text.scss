@@ -1,0 +1,72 @@
+.image-text {
+    
+
+&__row{
+    @include media865 {
+        padding-left: 0px;
+        width: 60%;
+
+    }
+    @extend %fulWidth;
+    @extend %displayRowKenar;
+    height: 752px;
+    background-color: $green;
+
+    
+}
+
+&__image {
+    @include media865 {
+        padding-left: 0px;
+        width: 60%;
+
+    }
+
+  
+    background-image: image($woman);
+    width: 830px;
+    align-items: flex-end;
+    background-color: $green;
+}
+
+&__text{
+    display: flex;
+    align-items:center;
+    display: inline-block;
+    width: 35%;
+    background-color: $green;
+
+    .text{
+        font-size: $small-size;
+        padding-top: 157px;
+        padding-left: 125px;
+        font-weight: 300;
+
+
+    }
+    .title{
+        color: $primary-color;
+        font-size: $big-size;
+        padding-left: 125px;
+        font-weight: 500;
+
+
+    }
+
+    .desc{
+        font-size: $middle-size;
+        padding-left: 130px;
+        color: $primary-color;
+        padding-top: 20px;
+        font-style: italic;
+
+
+
+    }
+}
+}
+
+
+
+
+

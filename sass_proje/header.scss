@@ -1,0 +1,126 @@
+header {
+    background-color: $header-color;
+    @extend %fulWidth;
+    height: 800px;
+    background-image: img("$header-img");
+    @extend %imgCenter;
+
+    .container {
+        @extend %main-container;
+
+        @include media865 {
+            width: 80%;
+
+        }
+
+        .nav--container {
+            @extend %displayRowKenar;
+            @extend %main-container;
+            padding-top: 33px;
+
+            .logo {
+                justify-content: left;
+                display: flex;
+                padding-left: 130px;
+
+                @include media865 {
+                    padding-left: 0px;
+
+                }
+            }
+
+            nav {
+                float: right;
+                padding-right: 130px;
+
+                @include media865 {
+                    padding-right: 0px;
+
+                }
+
+                .mobil--Navbar {
+                    display: none;
+                    margin-top: 24px;
+
+                    @include media1050 {
+                        display: block;
+                        float: right;
+                        padding-right: 0px;
+                    }
+
+
+                }
+
+                ul {
+                    height: 22px;
+                    width: 543px;
+
+                    @include media1050 {
+                        display: none;
+                    }
+
+                    li {
+                        display: inline-block;
+                        margin-left: 20px;
+
+                        a {
+                            color: $primary-color;
+                            display: block;
+                            text-decoration: none;
+                            font-size: $small-size;
+                            font-weight: 700;
+                            padding: 6px;
+                            font-family: $desc-family;
+
+                        }
+
+                    }
+                }
+
+            }
+
+        }
+
+
+        .text--container {
+            padding-left: 130px;
+            padding-top: 280px;
+
+            @include media865 {
+                padding-left: 0px;
+                width: 80%;
+
+            }
+
+
+            text {
+                font-size: $big-size;
+                font-family: $title-family ;
+                @extend %bigSize;
+                color: $primary-color;
+
+
+            }
+
+            p {
+                font-size: $middle-size;
+                color: $primary-color;
+                padding-left: 5px;
+                font-style: italic;
+                margin: 0px;
+                width: 690px;
+
+                @include media865 {
+                    width: 80%;
+
+                }
+
+
+            }
+
+
+        }
+
+    }
+
+}

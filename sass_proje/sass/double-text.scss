@@ -1,0 +1,30 @@
+.double-text{
+    @extend %fulWidth;
+    height: 362px;
+    background-color: $primary-color;
+
+    .double-text__row{
+     position: absolute;
+     align-items: center;
+     text-align: center;
+     
+
+    }
+    .title{
+        font-size: $big-size;
+        text-align: center;
+        font-weight: 400;   
+        padding-bottom: 20px;
+        padding-top: 60px;
+
+
+    }
+    p{
+        font-size: $middle-size;
+        text-align: center;
+        font-style: italic;
+        padding:0px 231px;
+       
+
+    }
+}
